@@ -1,0 +1,149 @@
+body {
+  color: #495057;
+  font-size: 11px;
+  font-family: 'Roboto', sans-serif;;
+  font-weight: 400;
+  margin: 5px;
+   /* if you want the light version */
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto;
+  text-align: center; /* This automatically sets left/right margins */
+}
+
+.card{
+  background: white;                         /* White background */
+  padding: 20px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 5px 30px rgba(0,0,0,.06);    /* Light shadow */
+  margin: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-weight: 300;
+  text-align: center;
+  font-size: 24px; /* if you want the light version */
+}
+
+h2 {
+  font-weight: 700; /* if you want the light version */
+  font-size: 12px;
+  line-height: 16px;
+  
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: lightgrey;
+  text-align: center;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #000000;
+}
+
+.link-profile {
+  color: #023047;
+  text-align: center;
+  border-radius: 5px; 
+  text-decoration: none;
+  padding: 1px;
+  text-align: left;
+}
+
+.link-profile{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #495057;
+  color: #e9ecef;
+  width: 120px;
+  border-radius: 5px; 
+  text-decoration: none;
+  padding: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: justify;
+}
+
+.side-crop { 
+  max-width: 520px; 
+  overflow: hidden;
+   
+}
+
+.side-crop img { 
+  max-width: initial;
+  text-indent: -50px;
+}
+
+/* .text-justify {
+  text-align: justify;
+} */
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 20px;
+  color: lightgrey
+}
+
+.btn-gold {
+  background-color: #76520e;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+#banner {
+  background-image: url("/images/jungle.jpg");
+  background-size: cover;
+  border: #495057;
+  border-radius: 5px;
+  color: #e9ecef;
+}
